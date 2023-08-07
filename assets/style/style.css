@@ -1,0 +1,96 @@
+@import url("./reset.css");
+/* header */
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 80px;
+  align-items: center;
+  color: #fff;
+  background-color: #8cabff;
+}
+
+header .left h2 {
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: bolder;
+  background-color: #512b81;
+  padding: 10px 14px;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 20px;
+}
+
+header ul {
+  display: flex;
+  column-gap: 20px;
+}
+
+header ul li {
+  padding: 5px 8px;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  border-radius: 10px;
+  background-color: #4477ce;
+}
+
+/* section */
+
+main section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+main section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  background-color: #4682a9;
+  width: 50%;
+  height: 50vh;
+}
+main section .container h2 {
+  font-size: 23px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+}
+main section .container #content {
+  color: #fff;
+  font-size: 20px;
+  background-color: #322653;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+main section .container button {
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  background-color: #c51605;
+}
+
+main section .container button:hover {
+  background-color: #000;
+  transition: 1s ease-in-out;
+}
+
+main section .container #herfler {
+  margin-top: 20px;
+  padding: 5px 20px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  border-radius: 10px;
+  background-color: #322653;
+  color: #fff;
+}
